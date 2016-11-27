@@ -33,7 +33,7 @@ class MagicBlueShell:
             self.params = params or []
             self.aliases = aliases or []
 
-    def __init__(self, bluetooth_adapter, bulb_version=7):
+    def __init__(self, bluetooth_adapter, bulb_version=9):
         # List available commands and their usage. 'con_required' define if
         # we need to be connected to a device for the command to run
         self.available_cmds = [

@@ -20,7 +20,7 @@ MAGIC_CHANGE_COLOR = 0x56
 
 
 class MagicBlue:
-    def __init__(self, mac_address, version=7):
+    def __init__(self, mac_address, version=9):
         """
         :param mac_address: device MAC address as a string
         :param version: bulb version as displayed in official app (integer)

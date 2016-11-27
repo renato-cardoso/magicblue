@@ -6,7 +6,7 @@ setuptools.setup(
     version=__version__,
     description='Unofficial Python API to control '
                 'Magic Blue bulbs over Bluetooth',
-    long_description=open('README.md').read(),
+    long_description='',
     url='https://github.com/Betree/pyMagicBlue',
     author='Benjamin Piouffle',
     author_email='benjamin.piouffle@gmail.com',

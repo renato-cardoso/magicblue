@@ -222,7 +222,7 @@ def get_params():
                         dest='bluetooth_adapter',
                         help='Bluetooth adapter name as listed by hciconfig')
     parser.add_argument('-b', '--bulb-version',
-                        default='7',
+                        default='9',
                         dest='bulb_version',
                         type=int,
                         help='Bulb version as displayed in the official app')
